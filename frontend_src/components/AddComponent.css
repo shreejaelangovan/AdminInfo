@@ -1,0 +1,90 @@
+input{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;  
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 10px;
+    width:85%;
+}
+#dateOfBirth{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: -5px; */
+    text-align: left;
+    padding: 5px;
+    /* width:50%; */
+}
+#gender{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 10px;
+    width:85%;
+}
+#email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 10px;
+    width:85%;
+}
+#phoneNumber{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 10px;
+    width:85%;
+}
+#department{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 10px;
+    width:85%;
+}
+#salary{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 10px;
+    width:85%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #F7EFE5;
+    height: 930px;
+    padding: 20px;
+    width: 550px;
+    border-radius: 0.5cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+}
+button[type="submit"] {
+    padding: 10px;
+    background-color:#674188;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -1px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:  darkmagenta;
+  }
